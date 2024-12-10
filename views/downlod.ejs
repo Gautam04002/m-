@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Card Download</title>
+    <link rel="stylesheet" href="/downlod.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Download Your Ration Card</h2>
+        <form id="rationCardForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="cardNumber">Ration Card Number</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter your card number" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+
+            <button type="submit">Download</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="/downlod.js"></script>
+</body>
+</html>
